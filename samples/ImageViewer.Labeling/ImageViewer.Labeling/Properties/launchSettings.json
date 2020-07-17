@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ImageViewer.Labeling": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

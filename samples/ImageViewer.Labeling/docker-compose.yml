@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  imageviewer.labeling:
+    image: ${DOCKER_REGISTRY-}imageviewer
+    build:
+      context: .
+      dockerfile: ImageViewer.Labeling/Dockerfile

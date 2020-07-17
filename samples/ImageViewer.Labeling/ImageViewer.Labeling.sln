@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageViewer.Labeling", "ImageViewer.Labeling\ImageViewer.Labeling.csproj", "{D7846E25-D945-4326-9860-D30A6227EA46}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{13BA8EC7-DEF9-4BA3-B204-188177FA6A9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7846E25-D945-4326-9860-D30A6227EA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7846E25-D945-4326-9860-D30A6227EA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7846E25-D945-4326-9860-D30A6227EA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7846E25-D945-4326-9860-D30A6227EA46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13BA8EC7-DEF9-4BA3-B204-188177FA6A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BA8EC7-DEF9-4BA3-B204-188177FA6A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BA8EC7-DEF9-4BA3-B204-188177FA6A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BA8EC7-DEF9-4BA3-B204-188177FA6A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
