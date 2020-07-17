@@ -2778,7 +2778,7 @@ var NbOAuth2CallbackComponent = /** @class */ (function () {
     NbOAuth2CallbackComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'nb-playground-oauth2-callback',
-            template: "\n      \n        Authenticating...\n    \n    ",
+            template: "\n\n        Authenticating...\n\n    ",
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_nebular_auth__WEBPACK_IMPORTED_MODULE_2__["NbAuthService"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]])
     ], NbOAuth2CallbackComponent);
@@ -2799,10 +2799,7 @@ var NbOAuth2CallbackComponent = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
-
-var environment = Object(lodash__WEBPACK_IMPORTED_MODULE_0__["assign"])(window._env, {});
+var environment = Object.assign({}, window._env);
 
 
 /***/ }),

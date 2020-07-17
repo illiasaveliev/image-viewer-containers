@@ -33,7 +33,7 @@
 
 ## Configure CORS for Image Viewer API
 
-1. **Redeploy API** with a **WebappRedirectUrl** parameter - the value to the created CloudFront URL, for ex. https://d11slzrsa9srg2n2.cloudfront.net
+1. **Redeploy API** with a **WebappRedirectUrl** parameter - the value of the created CloudFront URL, for ex. https://d11slzrsa9srg2n2.cloudfront.net
 
     ```bash
     aws cloudformation deploy --force-upload --no-fail-on-empty-changeset \
@@ -42,7 +42,7 @@
     --capabilities CAPABILITY_NAMED_IAM \
     --parameter-overrides Image=44444444444.dkr.ecr.eu-west-1.amazonaws.com/image-viewer-api:0.1 \
     VPC=vpc-3243kj SubnetA=subnet-32432kmn SubnetB=subnet-3245jjj \
-    S3Bucket=image-viewer-images WebappRedirectUrl=https://d11slzrsa9srg2n2.cloudfront.net
+    S3Bucket=image-viewer-images WebappRedirectUrl=https://d33slzrsa9srg2n2.cloudfront.net
     ```
 
 ## Configure CORS for API Gateway

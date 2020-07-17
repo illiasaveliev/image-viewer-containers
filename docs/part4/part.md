@@ -59,7 +59,7 @@ We will use AWS CloudFormation script, which will spin up the AWS Fargate cluste
 
    ![alt text](1.png)
 
-4. Make sure you are in the **ImageViewer.API** folder and execute the next command to deploy required infrastructure. But before replace the next parameters
+4. Make sure you are in the **ImageViewer.Labeling** folder and execute the next command to deploy required infrastructure. But before replace the next parameters
     - **Image** - the url to the Docker image at AWS ECR
     - **VPC** - the VPC Id from the step **1**
     - **SubnetA** - the first Subnet Id from the step **2**
