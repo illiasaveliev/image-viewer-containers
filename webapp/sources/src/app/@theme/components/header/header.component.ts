@@ -5,7 +5,7 @@ import {
   NbMediaBreakpointsService,
   NbMenuService,
   NbSidebarService,
-  NbThemeService
+  NbThemeService,
   } from '@nebular/theme';
 import { Subject } from 'rxjs';
 import { UserData } from '../../../@core/data/users';

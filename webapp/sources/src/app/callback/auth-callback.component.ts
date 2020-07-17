@@ -6,9 +6,9 @@ import { takeWhile } from 'rxjs/operators';
 @Component({
     selector: 'nb-playground-oauth2-callback',
     template: `
-      
+
         Authenticating...
-    
+
     `,
   })
   export class NbOAuth2CallbackComponent implements OnDestroy {

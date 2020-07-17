@@ -64,7 +64,7 @@ export class TreeGridComponent {
               this.files = undefined;
               this.loadImages();
             }
-           })
+           });
         },
          error => {
            alert('Upload failure:' + error.error.toString());
